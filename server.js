@@ -8,6 +8,15 @@ app.get('/api/get',(req,res)=>{
 });
 
 
+app.get('/api/get_user_details',(req,res)=>{
+    res.send({
+        name:"Rana ji",
+        age:21,
+        contact:"123456789"
+    })
+});
+
+
 
 app.listen(8000,()=>{
   console.log("Server is running on port 8000");
