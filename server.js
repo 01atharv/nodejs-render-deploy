@@ -12,7 +12,8 @@ app.get('/api/get_user_details',(req,res)=>{
     res.send({
         name:"Rana ji",
         age:21,
-        contact:"123456789"
+        contact:"123456789",
+        "address":"India"
     })
 });
 
