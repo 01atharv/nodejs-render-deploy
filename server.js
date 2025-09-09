@@ -4,7 +4,7 @@ const app = express();
 
 
 app.get('/api/get',(req,res)=>{
-    res.send({message:"hello back to node server"})
+    res.send({message:"hello back to node server . my name is Atharvraj singh ranaji"})
 });
 
 
